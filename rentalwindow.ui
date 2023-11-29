@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>rentalwindow</class>
+ <widget class="QDialog" name="rentalwindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1035</width>
+    <height>551</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>290</y>
+     <width>381</width>
+     <height>187</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="message">
+      <property name="styleSheet">
+       <string notr="true">border-style: outset;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: black;
+    font: bold 14px;
+    min-width: 10em;
+    padding: 6px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="addrentalbutton">
+      <property name="text">
+       <string>Add rental</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="removerentalbutton">
+      <property name="text">
+       <string>Remove rental</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="customersearchbutton">
+      <property name="text">
+       <string>Search for customers</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="carsearchbutton">
+      <property name="text">
+       <string>Search for cars</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="exitbutton">
+      <property name="text">
+       <string>Exit</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>60</y>
+     <width>561</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QTableView" name="tableView"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="loadrentalsbutton">
+      <property name="text">
+       <string>Load rentals</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>381</width>
+     <height>112</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Customer SS Number</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="customerssbox"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Car Registration Number</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="carregbox"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="freshmenubutton">
+      <property name="text">
+       <string>Load menus</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

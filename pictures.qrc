@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/pictures">
+        <file>Pictures/icon.png</file>
+        <file>Pictures/car.png</file>
+        <file>Pictures/carrental.png</file>
+        <file>Pictures/people.png</file>
+        <file>Pictures/moon.png</file>
+        <file>Pictures/sun.png</file>
+    </qresource>
+</RCC>
